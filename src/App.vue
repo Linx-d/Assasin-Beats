@@ -4,15 +4,15 @@
         <div class="nav">
             <ul>
                 <li class="logo"><img src="./images/nav_logo.png" alt=""></li>
-                <li class="sosuo link"><a href=""><img src="./images/sousuo.png" alt=""></a></li>
-                <li class="link"><a href="#">首页</a></li>
-                <li class="link"><a href="#">系列产品</a></li>
-                <li class="link"><router-link to="/news_product">新品上市</router-link></li>
-                <li class="link"><a href="#">新闻资讯</a></li>
-                <li class="link"><a href="#">关于我们</a></li>
-                <li class="link"><router-link to="/contactus">联系我们</router-link></li>
-                <li class="gouwu link"><a href="#"><img src="./images/gouwuche.png" alt=""></a></li>
-                <li class="denglu link"><a href="#"><img src="./images/denglu.png" alt=""></a></li>
+                <li class="sosuo link"><a href="" :class="{ nav_red: nav_1 }"><img src="./images/sousuo.png" alt=""></a></li>
+                <li class="link" @click="navChoose('2')"><router-link to="/index" :class="{ nav_red: nav_2default }">首页</router-link></li>
+                <li class="link" @click="navChoose('3')"><router-link to="/product_series" :class="{ nav_red: nav_3 }">系列产品</router-link></li>
+                <li class="link" @click="navChoose('4')"><router-link to="/news_product" :class="{ nav_red: nav_4 }">新品上市</router-link></li>
+                <li class="link" @click="navChoose('5')"><router-link to="/news" :class="{ nav_red: nav_5 }">新闻资讯</router-link></li>
+                <li class="link" @click="navChoose('6')"><router-link to="/about" :class="{ nav_red: nav_6 }">关于我们</router-link></li>
+                <li class="link" @click="navChoose('7')"><router-link to="/contactus" :class="{ nav_red: nav_7 }">联系我们</router-link></li>
+                <li class="gouwu link" @click="navChoose('8')"><router-link to="/shopping" :class="{ nav_red: nav_8 }"><img src="./images/gouwuche.png" alt=""></router-link></li>
+                <li class="denglu link" @click="navChoose('9')"><router-link to="/information" :class="{ nav_red: nav_9 }"><img src="./images/denglu.png" alt=""></router-link></li>
             </ul>
         </div>
 
@@ -83,7 +83,107 @@
 </template>
 
 <script>
-
+export default {
+    data() {
+        return {
+            nav_1: false,
+            nav_2default: true,
+            nav_3: false,
+            nav_4: false,
+            nav_5: false,
+            nav_6: false,
+            nav_7: false,
+            nav_8: false,
+            nav_9: false,
+        };
+    },
+    methods: {
+        navChoose(id) {
+            switch (id) {
+                default :
+                this.nav_2default = true;
+                this.nav_3 = false;
+                this.nav_4 = false;
+                this.nav_5 = false;
+                this.nav_6 = false;
+                this.nav_7 = false;
+                this.nav_8 = false;
+                this.nav_9 = false;
+                break;
+                case '3':
+                this.nav_2default = false;
+                this.nav_3 = true;
+                this.nav_4 = false;
+                this.nav_5 = false;
+                this.nav_6 = false;
+                this.nav_7 = false;
+                this.nav_8 = false;
+                this.nav_9 = false;
+                break;
+                case '4':
+                this.nav_2default = false;
+                this.nav_3 = false;
+                this.nav_4 = true;
+                this.nav_5 = false;
+                this.nav_6 = false;
+                this.nav_7 = false;
+                this.nav_8 = false;
+                this.nav_9 = false;
+                break;
+                case '5':
+                this.nav_2default = false;
+                this.nav_3 = false;
+                this.nav_4 = false;
+                this.nav_5 = true;
+                this.nav_6 = false;
+                this.nav_7 = false;
+                this.nav_8 = false;
+                this.nav_9 = false;
+                break;
+                case '6':
+                this.nav_2default = false;
+                this.nav_3 = false;
+                this.nav_4 = false;
+                this.nav_5 = false;
+                this.nav_6 = true;
+                this.nav_7 = false;
+                this.nav_8 = false;
+                this.nav_9 = false;
+                break;
+                case '7':
+                this.nav_2default = false;
+                this.nav_3 = false;
+                this.nav_4 = false;
+                this.nav_5 = false;
+                this.nav_6 = false;
+                this.nav_7 = true;
+                this.nav_8 = false;
+                this.nav_9 = false;
+                break;
+                case '8':
+                this.nav_2default = false;
+                this.nav_3 = false;
+                this.nav_4 = false;
+                this.nav_5 = false;
+                this.nav_6 = false;
+                this.nav_7 = false;
+                this.nav_8 = true;
+                this.nav_9 = false;
+                break;
+                case '9':
+                this.nav_2default = false;
+                this.nav_3 = false;
+                this.nav_4 = false;
+                this.nav_5 = false;
+                this.nav_6 = false;
+                this.nav_7 = false;
+                this.nav_8 = false;
+                this.nav_9 = true;
+                break;
+            }
+        }
+    }
+}
 </script>
 
 <style lang="scss" scoped >
@@ -146,6 +246,10 @@
         .nav a:hover {
         	font-size: 18px;
         	background-color: #df042a;
+        }
+        .nav .nav_red {
+            font-size: 18px;
+            background-color: #df042a;
         }
 
 /*---------------------nav结束----------------------*/
