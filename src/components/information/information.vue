@@ -12,18 +12,18 @@
 				<div class="right_middle">
 					<form action="">
 						<div class="middle_number">
-							<label for="number"><img src="http://nsedu.oss-cn-beijing.aliyuncs.com/2019web/huangcheng/images/denglu/phone.png" alt=""></label>
+							<label for="number"><img src="../../images/phone.png" alt=""></label>
 							<input type="text" placeholder="请输入手机号登录" id="number">
 						</div>
 						<div class="middle_password">
-							<label for="password"><img src="http://nsedu.oss-cn-beijing.aliyuncs.com/2019web/huangcheng/images/denglu/jiantou.png" alt="" class="icon_right"></label>
+							<label for="password"><img src="../../images/jiantou.png" alt="" class="icon_right"></label>
 							<input type="text" placeholder="请输入正确答案" id="password">
 							<img src="../../images/yanzheng.png" alt="" class="yanzhengma">
 						</div>
 						<div class="middle_verify">
-							<label for="verify"><img src="http://nsedu.oss-cn-beijing.aliyuncs.com/2019web/huangcheng/images/denglu/jiantou.png" alt=""></label>
+							<label for="verify"><img src="../../images/jiantou.png" alt=""></label>
 							<input type="text" placeholder="请输入验证码" id="verify">
-							<button>获取验证码</button>
+							<input id="obtain" type="submit" value="获取验证码"></input>
 						</div>
 						<input type="submit" value="登录/注册" id="login">
 					</form>
@@ -40,6 +40,9 @@
 </script>
 
 <style lang="scss" scoped>
+	input {
+		outline: 0;
+	}
 	.banner {
 		height: 800px;
 		width: 100%;
@@ -184,6 +187,7 @@
         	position: absolute;
         	top: 16px;
         	left: 58px;
+                width: 310px;
         }
 
         .middle_password {
@@ -219,6 +223,7 @@
         	position: absolute;
         	top: 16px;
         	left: 58px;
+                width: 207px;
         }
 
         .middle_verify {
@@ -241,7 +246,7 @@
         	margin-left: 14px;
         	margin-top: 11px;
         }
-        .middle_verify input {
+        .middle_verify input[type="text"] {
         	color: #757575;
         	outline: 0;
         	border: 0;
@@ -249,8 +254,9 @@
         	position: absolute;
         	top: 16px;
         	left: 58px;
+                width: 207px;
         }
-        .middle_verify button {
+        .middle_verify input[type="submit"] {
         	border: 0;
         	width: 100px;
         	height: 47px;

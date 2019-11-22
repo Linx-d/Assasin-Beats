@@ -1,10 +1,10 @@
 <template>
     <div>
     <!--导航 nav-->
-        <div class="nav">
+        <div class="nav" v-show="!nav_sousuo">
             <ul>
                 <li class="logo"><img src="./images/nav_logo.png" alt=""></li>
-                <li class="sosuo link"><a href="" :class="{ nav_red: nav_1 }"><img src="./images/sousuo.png" alt=""></a></li>
+                <li class="sosuo link" @click="nav_sousuo=true"><a href="#" :class="{ nav_red: nav_1 }"><img src="./images/sousuo.png" alt=""></a></li>
                 <li class="link" @click="navChoose('2')"><router-link to="/index" :class="{ nav_red: nav_2default }">首页</router-link></li>
                 <li class="link" @click="navChoose('3')"><router-link to="/product_series" :class="{ nav_red: nav_3 }">系列产品</router-link></li>
                 <li class="link" @click="navChoose('4')"><router-link to="/news_product" :class="{ nav_red: nav_4 }">新品上市</router-link></li>
@@ -14,6 +14,15 @@
                 <li class="gouwu link" @click="navChoose('8')"><router-link to="/shopping" :class="{ nav_red: nav_8 }"><img src="./images/gouwuche.png" alt=""></router-link></li>
                 <li class="denglu link" @click="navChoose('9')"><router-link to="/information" :class="{ nav_red: nav_9 }"><img src="./images/denglu.png" alt=""></router-link></li>
             </ul>
+        </div>
+        <div class="nav_sousuo" v-show="nav_sousuo">
+        	<div class="nav_sousuo_top">
+        		<div class="nav_top_center">
+        			<img src="./images/xiala_logo.png" alt="">
+        			<div class="input"><input type="text" placeholder="搜索Beats"></div>
+        			<span @click="nav_sousuo=false">x</span>
+        		</div>
+        	</div>
         </div>
 
 	<!--渲染组件出口-->
@@ -95,6 +104,7 @@ export default {
             nav_7: false,
             nav_8: false,
             nav_9: false,
+            nav_sousuo: false
         };
     },
     methods: {
@@ -191,7 +201,7 @@ export default {
         .nav {
         	width: 100%;
         	height: 132px;
-        	background-color: #010101;
+        	/*background-color: #010101;*/
         	position: absolute;
         	top: 0;
         	left: 0;
@@ -240,7 +250,6 @@ export default {
         	display: block;
         	height: 130px;
         	width: 170px;
-        	background-color: #010101;
         	transition: 0.5s;
         }
         .nav a:hover {
@@ -253,6 +262,73 @@ export default {
         }
 
 /*---------------------nav结束----------------------*/
+
+/*---------------------nav_sousuo 开始----------------------*/
+        .nav_sousuo {
+        	position: fixed;
+        	top: 0;
+        	left: 0;
+        	height: 100%;
+        	width: 100%;
+        	background-color: rgba(0, 0, 0, 0.5);
+        	z-index: 9999;
+        }
+        .nav_sousuo .nav_sousuo_top {
+        	width: 100%;
+        	height: 80px;
+        	background-color: #333333;
+        	position: relative;
+        }
+        .nav_sousuo .nav_sousuo_top .nav_top_center {
+        	width: 1200px;
+        	height: 80px;
+        	position: absolute;
+        	top: 0;
+        	left: 50%;
+        	transform: translateX(-50%);
+        	position: relative;
+        }
+        .nav_sousuo .nav_top_center img {
+        	position: absolute;
+        	left: 0;
+        	top: 21px;
+        }
+        .nav_sousuo .nav_top_center .input {
+        	width: 1000px;
+        	height: 50px;
+        	border: 3px solid #7a7a7a;
+        	border-radius: 25px;
+        	position: absolute;
+        	left: 80px;
+        	top: 12px;  
+        }
+        .nav_sousuo .nav_top_center .input input {
+        	position: absolute;
+        	width: 958px;
+        	top: 11px;
+        	left: 38px;
+        	outline: 0;
+        	border: 0;
+        	background-color: #333333;
+        	font-size: 24px;
+        	font-weight: 700;
+        	color: #fff;
+        }
+        .nav_sousuo .nav_top_center span {
+        	display: block;
+        	height: 45px;
+        	width: 45px;
+        	border: 2px solid #a3a3a3;
+        	border-radius: 50%;
+        	position: absolute;
+        	right: 35px;
+        	top: 16px;
+        	padding: 9px 17px;
+        	box-sizing: border-box;
+        	color: #a3a3a3;
+        	cursor: pointer;
+        }
+/*---------------------nav_sousuo 结束----------------------*/
 
 /*---------------------页脚 footer 开始----------------------*/
         .footer {

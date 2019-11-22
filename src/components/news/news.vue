@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<h1>新闻资讯</h1>
+		<div class="banner">
+			
+		</div>
 	</div>
 </template>
 
@@ -9,5 +11,9 @@
 </script>
 
 <style lang="scss" scoped>
-	
+	.banner {
+		height: 800px;
+		width: 100%;
+		background:  url('../../images/news_banner.png') 0 0 no-repeat;
+	}
 </style>

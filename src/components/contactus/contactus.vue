@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<h1>联系我们组件</h1>
+		<div class="banner">
+			
+		</div>
 	</div>
 </template>
 
@@ -8,4 +10,10 @@
 	
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+	.banner {
+		width: 100%;
+		height: 597px;
+		background:  url('../../images/contact_banner.png') 0 0 no-repeat;
+	}
+</style>
