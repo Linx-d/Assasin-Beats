@@ -219,6 +219,9 @@ export default {
         .nav .denglu {
         	position: relative;
         }
+        .nav .denglu {
+            width: 170px;
+        }
         .nav img {
         	position: absolute;
         	left: 50%;

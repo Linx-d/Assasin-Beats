@@ -195,9 +195,9 @@ export default {
 		height: 17px;
 		color: #939393;
 		box-sizing: border-box;
-		text-align: center;
-		line-height: 17px;
+		line-height: 13px;
 		cursor: pointer;
+		padding: 0px 0px 0px 4px;
 	}
 	.goods .right1 .count div .number {
 		height: 16px;
