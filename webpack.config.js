@@ -1,7 +1,6 @@
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 //模块输出  输出一个对象 所以是 module.exports
@@ -16,8 +15,7 @@ module.exports = {
 		template: path.join(__dirname, 'src', 'index.html'),
 		filename: "index.html"
 	}),
-	new VueLoaderPlugin(),
-	new CleanWebpackPlugin()
+	new VueLoaderPlugin()
 	],
 	module: {
 		rules: [
