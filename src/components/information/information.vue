@@ -264,6 +264,7 @@
         	position: absolute;
         	right: -101px;
         	top: -1px;
+                cursor: pointer;
         }
 
         .right_middle #login {
@@ -273,5 +274,6 @@
         	background-color: #df042a;
         	margin-top: 50px;
         	color: #fff;
+                cursor: pointer;
         }
 </style>

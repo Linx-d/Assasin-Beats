@@ -610,6 +610,7 @@ export default {
         height: 462px;
         margin-top: 0;
         padding-top: 80px;
+        background: 0;
     }
     .company_bottom_right .company_top_right1 h1 {
         font-size: 28px;
@@ -670,25 +671,25 @@ export default {
         left: 500px;
      }
      .history_top1 .history_move2 {
-        left: 403px;
+        left: 399px;
      }
      .history_top1 .history_move3 {
-        left: 306px;
+        left: 298px;
      }
      .history_top1 .history_move4 {
-        left: 209px;
+        left: 197px;
      }
      .history_top1 .history_move5 {
-        left: 112px;
+        left: 96px;
      }
      .history_top1 .history_move6 {
-        left: 15px;
+        left: -5px;
      }
      .history_top1 .history_move7 {
-        left: -82px;
+        left: -106px;
      }
      .history_top1 .history_move8 {
-        left: -179px;
+        left: -217px;
      }
      .history_top1 .history_top1_a a{
         display: inline-block;
