@@ -12,7 +12,7 @@
             <div class="banner_right2">Beats</div>
             <div class="banner_right3">Studio <sup>3</sup>  Wireless</div>
             <div class="banner_right4">Beats Studio3 Wireless 现已全新登场，采用完全自适应消噪 (Beats <br> Pure ANC) 技术和 Apple w1芯片。</div>
-            <div class="know_info"><a href="#"><span></span>立即了解</a></div>
+            <div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         </div>
         <div class="products container">
         	<div class="product_top">
@@ -27,7 +27,7 @@
         					<img src="../../images/huashang_logo.png" alt="">
         				</div>
         				<h1>入耳式耳机系列</h1>
-        				<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        				<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         			</div>
         		</div>
         		<div class="products_bottom_right">
@@ -38,7 +38,7 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         				<li>
@@ -47,7 +47,7 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         				<li>
@@ -56,7 +56,7 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         				<li>
@@ -65,7 +65,7 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         			</ul>
@@ -81,7 +81,7 @@
         				<h1>Powerbeats<sup>3</sup> Wireless</h1>
         				<h2>性能。动力。自由。</h2>
         				<p>RMB 1,475</p>
-        				<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        				<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         				<img src="../../images/tuijian_con_left.png" alt="">
         			</div>
         			<div class="series_right" :class="{series_slide_r: slide_r}">
@@ -89,7 +89,7 @@
         				<h2>提升音乐体验<br />
 						精心打造，与你契合</h2>
         				<p>RMB 499</p>
-        				<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        				<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         				<img src="../../images/tuijian_con_right.png" alt="">
         			</div>
         		</div>
@@ -103,7 +103,7 @@
         					<img src="../../images/huashang_logo.png" alt="">
         				</div>
         				<h1>头戴式耳机系列</h1>
-        				<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        				<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         			</div>
         		</div>
         		<div class="products_bottom_right">
@@ -114,7 +114,7 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         				<li>
@@ -123,7 +123,7 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         				<li>
@@ -132,7 +132,7 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         				<li>
@@ -141,15 +141,109 @@
         						<h1>Beats Studio<sup>3</sup></h1>
         						<h2>Wireless</h2>
         						<p>ABOVE THE NOISE</p>
-        						<div class="know_info"><a href="#"><span></span>立即了解</a></div>
+        						<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
         					</div>
         				</li>
         			</ul>
         		</div>
         	</div>
         </div>
-
-        
+        <div class="other">
+        	<div class="products_bottom_left">
+        		<img src="../../images/other_top_left.png" alt="">
+        		<div class="products_bottom_left1">
+        			<div class="fade">
+        				<img src="../../images/huashang_logo.png" alt="">
+        			</div>
+        			<h1>Beats Pop Collection</h1>
+        			<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
+        		</div>
+        		<span class="extend1"></span>
+        		<span class="extend2"></span>
+        		<span class="extend3"></span>
+        		<span class="extend4"></span>
+        	</div>
+        	<div class="products_bottom_left">
+        		<img src="../../images/other_top_right.png" alt="">
+        		<div class="products_bottom_left1">
+        			<div class="fade">
+        				<img src="../../images/huashang_logo.png" alt="">
+        			</div>
+        			<h1>无线耳机</h1>
+        			<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
+        		</div>
+        		<span class="extend1"></span>
+        		<span class="extend2"></span>
+        		<span class="extend3"></span>
+        		<span class="extend4"></span>
+        	</div>
+        </div>
+        <div class="people">
+        	<div class="products_bottom_left">
+        		<img src="../../images/other_bottom_left.png" alt="">
+        		<div class="products_bottom_left1">
+        			<div class="fade">
+        				<img src="../../images/huashang_logo.png" alt="">
+        			</div>
+        			<h1>Beats Icon Collect</h1>
+        			<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
+        		</div>
+        		<span class="extend1"></span>
+        		<span class="extend2"></span>
+        		<span class="extend3"></span>
+        		<span class="extend4"></span>
+        	</div>
+        	<div class="products_bottom_left">
+        		<img src="../../images/other_bottom_right.png" alt="">
+        		<div class="products_bottom_left1">
+        			<div class="fade">
+        				<img src="../../images/huashang_logo.png" alt="">
+        			</div>
+        			<h1>配件系列</h1>
+        			<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
+        		</div>
+        		<span class="extend1"></span>
+        		<span class="extend2"></span>
+        		<span class="extend3"></span>
+        		<span class="extend4"></span>
+        	</div>
+        </div>
+        <div class="beats">
+        	<div class="products_bottom_left">
+        		<img src="../../images/yangshengqi.png" alt="">
+        		<div class="products_bottom_left1">
+        			<div class="fade">
+        				<img src="../../images/huashang_logo.png" alt="">
+        			</div>
+        			<h1>配件系列</h1>
+        			<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
+        		</div>
+        		<span class="extend1"></span>
+        		<span class="extend2"></span>
+        		<span class="extend3"></span>
+        		<span class="extend4"></span>
+        	</div>
+        </div>
+        <div class="dre container">
+        	<div class="dre_left">
+        		<h3>JUST WHAT</h3>
+        		<h3>THE DR</h3>
+        		<h3>ORDERED</h3>
+        		<span></span>
+        	</div>
+        	<div class="dre_center">
+        		<img src="../../images/yangshengqipro.png" alt="">
+        	</div>
+        	<div class="dre_right">
+        		<h2>Beats Pill+</h2>
+        		<div class="star">
+        			<img src="../../images/yangshengqi_star.png" alt="">
+        		</div>
+        		<h3>你耳边的演唱会</h3>
+        		<p>便携式无线扬声器</p>
+        		<div class="know_info"><a href="javascript:;"><span></span>立即了解</a></div>
+        	</div>
+        </div>
 	</div>
 </template>
 
@@ -316,7 +410,7 @@ export default {
 
 /*---------------------产品系列products 结束---------------------*/
         .products {
-        	height: 2080px;
+        	height: 2085px;
         	margin-top: 100px;
         	margin-bottom: 18px;
         	position: relative;
@@ -441,7 +535,7 @@ export default {
         	transition: 0.5s;
         }
         .products_bottom_left1 .fade {
-        	width: 626px;
+        	width: 100%;
         	height: 63px;
         	margin-top: 185px;
         	margin-bottom: 35px;
@@ -462,6 +556,7 @@ export default {
 /*---------------------淡入 fade small组件 开始----------------------*/
 
 /*---------------------淡入 fade small组件 结束----------------------*/
+
 /*---------------------series 开始---------------------*/
         .products_middle {
         	width: 1991px;
@@ -494,6 +589,13 @@ export default {
         	overflow: hidden;
         	margin-bottom: 20px;
         	left: 45px;
+        }
+        .series img {
+        	transition: 0.5s;
+        }
+        .series_left img:hover,
+        .series_right img:hover {
+        	transform: scale(1.05, 1.05);
         }
         .series_left,
         .series_right {
@@ -580,4 +682,260 @@ export default {
         	left: 0;
         }
 /*---------------------series 结束---------------------*/
+
+/*---------------------other 开始---------------------*/
+		.other {
+			height: 542px;
+			width: 100%;
+			background-color: pink;
+		}
+		.other .products_bottom_left {
+			width: 951px;
+			height: 542px;
+			float: left;
+			position: relative;
+		}
+		.other .products_bottom_left:nth-child(2) {
+			width: 952px;
+		}
+		.other .products_bottom_left1 {
+			width: 960px;
+			height: 542px;
+		}
+		.other .fade {
+			width: 100%;
+		}
+		.other .know_info {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 360px;
+		}
+/*---------------------other 结束---------------------*/
+
+/*---------------------people 开始---------------------*/
+		.people {
+			width: 100%;
+			height: 593px;
+			background-color: pink;
+		}
+		.people .products_bottom_left:nth-child(1) {
+			width: 1192px;
+			height: 593px;
+			position: relative;
+		}
+		.people .products_bottom_left:nth-child(1) .products_bottom_left1 {
+			width: 1192px;
+			height: 593px;
+		}
+		.people .know_info {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 360px;
+		}
+		.people .products_bottom_left:nth-child(1):hover .extend1 {
+			width: 1160px;
+			opacity: 1;
+		}
+		.people .products_bottom_left:nth-child(1):hover .extend2 {
+			height: 550px;
+			opacity: 1;
+		}
+		.people .products_bottom_left:nth-child(1):hover .extend3 {
+			height: 550px;
+			opacity: 1;
+		}
+		.people .products_bottom_left:nth-child(1):hover .extend4 {
+			width: 1160px;
+			opacity: 1;
+		}
+
+		.people .products_bottom_left:nth-child(2) {
+			width: 711px;
+			height: 593px;
+			position: relative;
+		}
+		.people .products_bottom_left:nth-child(2) .products_bottom_left1 {
+			width: 711px;
+			height: 593px;
+		}
+		.people .products_bottom_left:nth-child(2):hover .extend1 {
+			width: 680px;
+			opacity: 1;
+		}
+		.people .products_bottom_left:nth-child(2):hover .extend2 {
+			height: 550px;
+			opacity: 1;
+		}
+		.people .products_bottom_left:nth-child(2):hover .extend3 {
+			height: 550px;
+			opacity: 1;
+		}
+		.people .products_bottom_left:nth-child(2):hover .extend4 {
+			width: 680px;
+			opacity: 1;
+		}
+/*---------------------people 结束---------------------*/
+
+/*---------------------beats 开始---------------------*/
+		.beats {
+			width: 1511px;
+			height: 418px;
+			background-color: pink;
+			margin-left: 392px;
+			margin-bottom: 100px;
+		}
+		.beats .products_bottom_left {
+			width: 1511px;
+			height: 418px;
+			position: relative;
+		}
+		.beats .products_bottom_left1 {
+			width: 1511px;
+			height: 418px;
+		}
+		.beats .know_info {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 270px;
+		}
+		.beats .products_bottom_left:hover .extend1 {
+			width: 1481px;
+			opacity: 1;
+		}
+		.beats .products_bottom_left:hover .extend2 {
+			height: 378px;
+			opacity: 1;
+		}
+		.beats .products_bottom_left:hover .extend3 {
+			height: 378px;
+			opacity: 1;
+		}
+		.beats .products_bottom_left:hover .extend4 {
+			width: 1481px;
+			opacity: 1;
+		}
+		.beats .fade {
+			margin-top: 92px;
+		}
+/*---------------------beats 结束---------------------*/
+
+/*---------------------dre 结束---------------------*/
+		.dre {
+			height: 369px;
+		}
+		.dre .dre_left {
+			width: 240px;
+			height: 369px;
+			float: left;
+			position: relative;
+			padding-left: 50px;
+			padding-top: 80px;
+			box-sizing: border-box;
+		}
+		.dre_left h3 {
+			font-size: 22px;
+			color: #a5a5a5;
+			height: 45px;
+		}
+		.dre_left h3:nth-child(3) {
+			font-size: 22px;
+			color: #df042a;
+		}
+		.dre_left span {
+			position: absolute;
+			left: 0;
+			height: 64px;
+			width: 4px;
+			background-color: #df042a;
+			top: 107px;
+		}
+		.dre .dre_center {
+			width: 720px;
+			height: 369px;
+			float: left;
+		}
+		.dre .dre_center img {
+			transition: 0.7s;
+		}
+		.dre .dre_center:hover img {
+			transform: scale(1.03, 1.03);
+		}
+		.dre .dre_right {
+			width: 240px;
+			height: 369px;
+			float: left;
+			position: relative;
+		}
+		.dre_right h2 {
+			font-size: 24px;
+		}
+		.dre_right .star {
+			width: 201px;
+			height: 21px;
+			margin: 12px 0;
+		}
+		.dre_right h3 {
+			font-size: 18px;
+			font-weight: 400;
+			margin-bottom: 12px;
+		}
+		.dre_right p {
+			font-size: 12px;
+			color: #808080;
+		}
+		.dre_right .know_info {
+			position: absolute;
+			left: 0;
+			top: 180px;
+		}
+/*---------------------dre 结束---------------------*/
+
+/*---------------------extend 开始---------------------*/
+		.extend1,
+		.extend2,
+		.extend3,
+		.extend4, {
+			width: 5px;
+			height: 5px;
+			background-color: #df042a;
+			position: absolute;
+			opacity: 0;
+			transition: 0.7s;
+		}
+		.extend1 {
+			left: 15px;
+			top: 20px;
+		}
+		.extend2 {
+			right: 15px;
+			top: 20px;
+		}
+		.extend3 {
+			left: 15px;
+			bottom: 20px;
+		}
+		.extend4 {
+			right: 15px;
+			bottom: 20px;
+		}
+		.products_bottom_left:hover .extend1 {
+			width: 920px;
+			opacity: 1;
+		}
+		.products_bottom_left:hover .extend2 {
+			height: 497px;
+			opacity: 1;
+		}
+		.products_bottom_left:hover .extend3 {
+			height: 497px;
+			opacity: 1;
+		}
+		.products_bottom_left:hover .extend4 {
+			width: 920px;
+			opacity: 1;
+		}
+/*---------------------extend 结束---------------------*/
 </style>
