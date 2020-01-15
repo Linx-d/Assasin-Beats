@@ -31,6 +31,8 @@ import about from "./components/about/about.vue";
 import shopping from "./components/shopping/shopping.vue";
 //导入 个人中心 组件 information
 import information from "./components/information/information.vue";
+//导入 新闻资讯子界面 
+import news_active from "./components/news/news_active/news_active.vue";
 
 
 //创建路由对象
@@ -71,6 +73,10 @@ var router = new VueRouter({
 	{
 		path: "/information",
 		component: information
+	},
+	{
+		path: "/news/news_active",
+		component: news_active
 	}
 	]
 });

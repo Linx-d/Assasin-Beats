@@ -13,7 +13,7 @@
 				<span>最新</span><span>全部</span>
 			</div>
 		</div>
-		<router-link class="active container" to="/news">
+		<router-link class="active container" to="/news/news_active">
 			<div class="active_shadow">
 				<div class="active_left">
 					<img src="../../images/news1.png" alt="">
@@ -30,7 +30,7 @@
 			</div>
 		</router-link>
 		<div class="active_line container"></div>
-		<router-link class="active container" to="/news">
+		<router-link class="active container" to="/news/news_active">
 			<div class="active_shadow">
 				<div class="active_left">
 					<img src="../../images/news2.png" alt="">
@@ -47,7 +47,7 @@
 			</div>
 		</router-link>
 		<div class="active_line container"></div>
-		<router-link class="active container" to="/news">
+		<router-link class="active container" to="/news/news_active">
 			<div class="active_shadow">
 				<div class="active_left">
 					<img src="../../images/news3.png" alt="">
@@ -64,15 +64,15 @@
 			</div>
 		</router-link>
 		<div class="active_line container"></div>
-		<router-link class="active container" to="/news">
+		<router-link class="active container" to="/news/news_active">
 			<div class="active_shadow">
 				<div class="active_left">
 					<img src="../../images/news4.png" alt="">
 				</div>
 				<div class="active_right">
-					<h3>继Lighting和USB-C后 苹果将再推一款接口</h3>
+					<h3>继Lightning和USB-C后 苹果将再推一款接口</h3>
 					<div>2019-09-19</div>
-					<p>现在苹果产品中服役的还是Lighting和USB-C两种接口。在最新的 , iphone上取消了3.5mm耳机插口以外...</p>
+					<p>现在苹果产品中服役的还是Lightning和USB-C两种接口。在最新的 , iphone上取消了3.5mm耳机插口以外...</p>
 					<span>公益活动&nbsp;|&nbsp;媒体广告</span>
 				</div>
 				<div class="active_bottom">
