@@ -48,6 +48,7 @@
 		width: 100%;
 		background:  url('../../images/banner.png') 0 0 no-repeat;
 		position: relative;
+                margin-bottom: 200px;
 	}
 /*-------------left----------------*/
 	.left h2 {
