@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pageFullScreen">
     <!--导航 nav-->
         <div class="nav" v-show="!nav_sousuo">
             <ul>
@@ -197,9 +197,14 @@ export default {
 </script>
 
 <style lang="scss" scoped >
+        .pageFullScreen,
+        .nav,
+        .nav_sousuo {
+            min-width: 1903px;
+        }
 /*---------------------nav开始----------------------*/
         .nav {
-        	width: 100%;
+        	width: 1903px;
         	height: 132px;
         	/*background-color: #010101;*/
         	position: absolute;
