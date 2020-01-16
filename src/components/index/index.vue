@@ -290,6 +290,9 @@
         		<img src="../../images/news_right-2.png" alt="">
         	</div>
         </div>
+        <div class="fix_top" :style="{ opacity: fix_scroll}" @click="scroll_top">
+        	&uarr;
+        </div>
 	</div>
 </template>
 
@@ -306,7 +309,8 @@ export default {
 			line2: false,
 			line3: false,
 			some_scroll: false,
-			hot_scroll: -1200
+			hot_scroll: -1200,
+			fix_scroll: 0
 		}
 	},
 	mounted() {
@@ -316,14 +320,11 @@ export default {
 		handleScroll() {
 			/*slide_center*/
 			var scrollTop1 = document.documentElement.scrollTop || document.body.scrollTop;
-			var scrollTop2 = document.documentElement.scrollTop || document.body.scrollTop;
-			var scrollTop3 = document.documentElement.scrollTop || document.body.scrollTop;
-			var scrollTop4 = document.documentElement.scrollTop || document.body.scrollTop;
 			if(scrollTop1>=100) {
 				this.slideScrollL = true;
 				this.slideScrollR = true;
 			};
-			if(scrollTop2>=550) {
+			if(scrollTop1>=550) {
 				this.dreScrollL = true;
 				this.dreScrollC = true;
 				this.dreScrollR = true;
@@ -333,6 +334,11 @@ export default {
 			};
 			if(scrollTop1>=4400) {
 				this.hot_scroll = 343;
+			};
+			if(scrollTop1>=1000) {
+				this.fix_scroll = 1;
+			}else {
+				this.fix_scroll = 0;
 			};
 		},
 		move_click(mes) {
@@ -350,6 +356,9 @@ export default {
 				this.line2 = false;
 				this.line3 = true;
 			};
+		},
+		scroll_top() {
+			window.scroll({top: 0, left: 0, behavior: 'smooth' }); /*回到顶部*/
 		}
 	}
 }	
@@ -364,6 +373,22 @@ export default {
 	.pageFullScreen {
 		overflow: hidden;
 	}
+/*---------------------fix_top 开始---------------------*/
+		.fix_top {
+			width: 50px;
+			height: 50px;
+			background-color: #676767;
+			color: #ffffff;
+			text-align: center;
+			line-height: 50px;
+			position: fixed;
+			right: 50px;
+			bottom: 50px;
+			cursor: pointer;
+			z-index: 99999;
+		}
+/*---------------------fix_top 开始---------------------*/
+
 /*---------------------立即了解 开始---------------------*/
 		.know_info {
 			height: 35px;
