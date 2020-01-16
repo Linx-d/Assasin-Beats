@@ -581,6 +581,7 @@ export default {
         	padding-left: 40px;
         	box-sizing: border-box;
         	position: relative;
+        	margin-bottom: 150px;
         }
         .package .package_right {
         	float: right;

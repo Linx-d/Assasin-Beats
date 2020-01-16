@@ -310,7 +310,7 @@ export default {
     }
 /*------------------------------加入 开始------------------------------*/
     .join {
-    	margin-bottom: 160px;
+    	margin-bottom: 260px;
         margin-top: 100px;
     }
     .join_top {

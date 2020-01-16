@@ -233,6 +233,7 @@
     	height: 59px;
     	width: 100%;
     	position: relative;
+        margin-bottom: 200px;
     }
     .news_choose ul {
     	width: 302px;

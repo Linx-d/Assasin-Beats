@@ -344,7 +344,7 @@ export default {
         	background-color: #010101;
         	position: relative;
         	width: 1552px;
-        	margin: 100px auto;
+        	margin: -100px auto 0 auto;
         	z-index: 999;
         }
         .footer .background_image {

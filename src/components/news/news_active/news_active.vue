@@ -60,6 +60,7 @@
 	.active {
 		height: 1200px;
 		margin-top: 40px;
+		margin-bottom: 200px;
 	}
 	.news_active_left {
 		float: left;

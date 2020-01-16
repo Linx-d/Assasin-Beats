@@ -40,7 +40,7 @@ var router = new VueRouter({
 	routes:[
 	{
 		path: "/",
-		redirect: "/news_product"
+		redirect: "/index"
 	},
 	{
 		path: "/news_product",

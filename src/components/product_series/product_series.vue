@@ -825,6 +825,7 @@ export default {
 /*---------------------dre 结束---------------------*/
 		.dre {
 			height: 369px;
+            margin-bottom: 200px;
 		}
 		.dre .dre_left {
 			width: 240px;
