@@ -237,7 +237,7 @@
         			<div class="demo_l">
         				<img src="../../images/dyasic_top.png" alt="">
         			</div>
-        			<div class="demo_r">
+        			<div class="demo_r" id="dl_height">
         				<h3>Beats最受年轻人欢迎的品牌之一</h3>
         				<h4>Beats为摇滚暴徒、Hip-pop、流行音乐爱好者等提<br />供了更多的可能</h4>
         				<h5>2019.11.20</h5>
@@ -1257,12 +1257,19 @@ export default {
 			height: 104px;
 			float: left;
 		}
+		#dl_height {
+			height: 102px;
+		}
 		.demo_r {
 			width: 357px;
-			height: 102px;
+			height: 104px;
 			padding-left: 36px;
 			box-sizing: border-box;
 			float: right;
+			transition: 0.5s;
+		}
+		.demo:hover .demo_r{
+			background: rgba(255, 255, 255, 0.3);
 		}
 		.demo_r h3 {
 			font-size: 16px;
